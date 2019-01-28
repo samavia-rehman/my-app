@@ -7,6 +7,7 @@ import Testimonials from './Testimonials';
 import Gallery from './Gallery';
 import Blog from './Blog';
 import Contact from './Contact';
+import Hello from './hello';
 import {array} from './Data';
 
 
@@ -23,8 +24,10 @@ return(
         <Menu />
         <Testimonials />
         <Gallery />
+        <Hello />
         <Blog  Box={this.state.data}/>
         <Contact Contact={this.state.data}/>
+        
 </div>
 ) 
     }
