@@ -1,0 +1,27 @@
+.section{
+position: relative;
+border-top: 1px solid gray;
+box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    .Contact{
+        position: relative;
+        
+        // border: 1px solid #000;
+        width: 18%;
+        height: 400px;
+        left: 10%;
+        line-height: 1.5;
+        color: darkgray;
+        h5{
+            font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+            color: #DAAF5A;
+        }
+        h1{
+            font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+            color: #000;
+            font-size: 40px;
+        }
+    }
+
+
+}
+

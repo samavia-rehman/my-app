@@ -1,0 +1,99 @@
+// .about-hero{
+//     @include hero('text');
+//     // background-image: url('../../img/nayab.jpg');
+//     // background-size: cover; 
+// background: #2980B9;
+// }
+
+
+// .box{
+// background-color: $main-color;
+// }
+
+.Blog{
+    position: relative;
+    .Blog-title{
+        position: relative;
+        height: 100px;
+        width: 300px;
+       
+        text-align: center;
+        left: 40%;
+        h1{
+            position: absolute;
+            font-family: 'Rancho', cursive;
+             color: #DAAF5A;
+             text-align: center;
+             left: 30%;
+             top: 0%;
+             font-size: 15px;
+
+        }
+        p{
+            position: absolute;
+            font-family: 'Rancho', cursive;
+             color: #000;
+             text-align: center;
+             left: 20%;
+             top: -10%;
+             font-size: 50px;
+        }
+        
+       
+    }
+
+    .box{
+        position: relative;
+        height: 400px;
+        width: 300px;
+        box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+        display: inline-block;
+        left: 5%;
+        margin-left: 5%;
+        .pic{
+            position: relative;
+            height: 200px;
+            width: 200px;
+            // position: relative;
+            // width: 100%;
+            // min-height: 1px;
+            // padding-right: 15px;
+            // padding-left: 15px;
+            img{
+                position: absolute;
+                height: 100%;
+                width: 300px;
+                background-size: cover;
+                overflow: hidden;
+            }
+        }
+        h1{
+            font-size: 20px;
+            color: #DAAF5A;
+            letter-spacing: 5px;
+            text-align: center;
+
+        }
+        p{
+            font-family: 'Rancho', "Comic Sans MS", cursive, sans-serif;
+            color: #000;
+            font-size: 25px;
+            text-align: center;
+        }
+        button{
+            height: 30px;
+            width: 150px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            margin-left: 2%;
+            color: cadetblue;
+        }
+        h4{
+            position: absolute;
+            left: 70%;
+            top: 75%;
+            color: #DAAF5A;
+        }
+    }
+}

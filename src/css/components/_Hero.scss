@@ -1,0 +1,50 @@
+// .hero{
+//     @include hero('btn');
+// }
+
+.hero{
+    position: relative;
+    background: url('../img/header1.png');
+    overflow: hidden;
+    background-size: cover;
+    height: 150vh !important;
+  
+    .hero-title{
+        position: absolute;
+        color: $second-color;
+        font-size: 40px;
+        font-family: 'Rancho', cursive;
+        left: 5%;
+        letter-spacing: 3px;
+        height: 50vh;
+        width: 40vw;
+        top: 20%;
+        p{
+            font-family: 'Arial', cursive; 
+            position:absolute;
+            color: $second-color;
+            font-size:30px;
+        }
+        button{
+            position: absolute;
+            height: 50px;
+            width: 150px;
+            background: #DAAF5A;
+            border: none;
+            top: 140%;
+            border-radius: 20px;
+            color: $second-color;
+            font-size: bold;
+            outline: none;
+            font-size: 20px;
+            cursor: pointer;
+       &:hover{
+           background: $second-color;
+           color: #DAAF5A;
+       } 
+
+    }
+
+   
+    }
+}

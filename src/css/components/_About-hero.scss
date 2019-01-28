@@ -1,0 +1,48 @@
+// .about-hero{
+//     @include hero('text');
+//     // background-image: url('../../img/nayab.jpg');
+//     // background-size: cover; 
+// background: #2980B9;
+// }
+
+.about-hero{
+    position: relative;
+    height: 130vh !important;
+    .text{
+        height: 20%;
+        width: 45%;
+        margin: 10%;
+        h1{
+            
+            color: #000;
+            font-size: 40px;
+            font-family: 'Rancho', cursive;
+            letter-spacing: 3px;
+           
+        }
+        // .para{
+        //     // margin-top: 20%;
+        // }
+        .sign{
+            height: 100px;
+            width: 100px;
+            img{
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+
+    .pic{
+        height: 400px;
+        width: 500px;
+        position: absolute;
+        left: 60%;
+        top: 20%;
+        img{
+            
+            height: 400px;
+            width: 500px;
+        }
+    }
+}

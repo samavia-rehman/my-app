@@ -1,0 +1,104 @@
+
+   .Menu{
+       position: relative;
+        height: 150vh !important;
+        background: url('../img/Background.png');
+        background-size: cover;
+        overflow-y: hidden;
+
+        .head{
+            position: relative;
+            height: 100px;
+            width: 90%;
+            top: 0%;
+            left: 5%;
+            .se{
+                width: 100%;
+                padding: 20px;
+            position: absolute;
+            top:0;
+                h5{
+                    font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+                    color: #daaf5a;
+                }
+                h1{
+                    
+                    font-size: 36px;
+                    font-family: 'Rancho', "Comic Sans MS", cursive, sans-serif;
+                    color: $second-color;
+                    font-weight: 400;
+                    top: 10%;
+                }
+                button{
+                position: absolute;
+                    height: 50px;
+                    width: 200px;
+                    background: #DAAF5A;
+                    border: none;
+                    top: 20%;
+                    left: 83%;
+                    border-radius: 20px;
+                    color: $second-color;
+                    font-size: bold;
+                    outline: none;
+                    font-size: 20px;
+                    cursor: pointer;
+                &:hover{
+                    background: $second-color;
+                    color: #DAAF5A;
+                }
+        }
+    }
+                div{
+                    position: relative;
+                    top: 150%;
+
+                    margin-bottom: 5%;
+                    // float: left;
+                   display: inline-block;
+
+                    .list{
+                        position: relative;
+                         border-bottom: 1px dashed white;
+                         height: 100px;
+                         width: 500px;
+                         margin-left: 7%;
+                       
+                         
+                            .img{
+                                position: relative;
+                                left: 0%;
+                                top: 0%;
+                                img{
+                                    position: absolute;
+                                }
+                            }
+                                 h1{
+                                     position: absolute;
+                                     top: -30%;
+                                     left: 20%;
+                                    color: $second-color;
+                                }
+                                p{
+                                    position: absolute;
+                                    top: 30%;
+                                    left: 20%;
+                                    color: $second-color;
+                                }
+                                h5{
+                                    position: absolute;
+                                    top: -20%;
+                                    left: 80%;
+                                    font-size: 30px;
+                                    color: #DAAF5A;
+                                }
+                    }
+
+                }
+    }
+
+  
+
+
+   }
+  

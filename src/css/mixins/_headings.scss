@@ -1,0 +1,19 @@
+@mixin headings($size){
+    @if ($size == 'sm'){
+        font-size:20px;
+        font-weight:bolder;
+        margin-bottom:50px;
+    }
+    @else if($size == 'lg'){
+        font-size:20px;
+        margin-bottom:50px;
+        font-weight:bolder;
+        font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+        color: #DAAF5A; 
+    }
+    @else{
+        font-size:70px;
+        margin-bottom:50px;
+        font-weight:bolder;
+    }
+}

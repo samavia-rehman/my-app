@@ -1,0 +1,76 @@
+.Blogpage{
+    margin-top: 7%;
+    position: relative;
+    height: auto !important;
+   .box{
+       position: relative;
+       border-bottom: 2px solid rgb(139, 139, 139);
+       width: 50vw;
+       height: 50rem;
+       left: 5%;
+       .pic{
+           position: absolute;
+           img{
+               height: 50%;
+               width: 100%;
+            }
+       }
+       h1{
+           position: absolute;
+           color: #e2b650;
+           font-family: 'Arial','Rancho', cursive;
+           top: 30rem;
+           font-size: 15px;
+        }
+        p{
+            position: absolute;
+            color: #000;
+            font-family: 'Rancho', cursive;
+            top: 32rem;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        button{
+            position: absolute;
+            color: #000;
+            font-family: 'Arial', cursive;
+            top: 38rem;
+            font-size: 10px;
+            height: 30px;
+            width: 150px;
+            border: none;
+            outline: none;
+            border-radius: 20px;
+            color: cadetblue;
+
+        }
+        h4{
+            position: absolute;
+            left: 30%;
+            top: 37rem;
+            color: #DAAF5A;
+        }
+        .pg{
+            position: absolute;
+            left: 0%;
+            top: 40rem;
+            color: #333;
+            font-family: 'Arial', cursive;
+            font-size: 15px;
+        }
+        .btn{
+            position: absolute;
+            left: 0%;
+           
+            width:100px;
+            top: 45rem;
+            color: #000;
+            font-family: 'Arial', cursive;
+            font-size: 15px;
+            font-weight: bold;
+            background: none;
+            
+        }
+          
+   }
+}

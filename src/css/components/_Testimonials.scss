@@ -1,0 +1,81 @@
+.testimonials{
+    position: relative;
+    overflow-y: hidden;
+
+    .testimonials-title{
+        position: relative;
+        h1{
+            position: relative;
+            font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+            font-size: 20px;
+            color: #DAAF5A;
+            left: 50%;
+        }
+        h2{
+            position: relative;
+            font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+            font-size: 40px;
+            color: #000;
+            left: 48%;
+            letter-spacing: 3px;
+        }
+    }
+    .boxone{
+        position: relative;
+        // border: #000 1px solid;
+        top: 10%;
+        width: 35%;
+        height: 40%;
+        left: 10%;
+        box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+        img{
+            position: absolute;
+            top:20%;
+        }
+        p{
+            position: absolute;
+            left: 25%;
+        }
+        h1{
+            position: absolute;
+            top:30%;
+            left: 25%;
+            color: #DAAF5A;
+        }
+        h5{
+            position: absolute;
+            top:34%;
+            left: 65%;
+            color: gray;
+        }
+    }
+    .boxtwo{
+        position: relative;
+        // border: #000 1px solid;
+        top: -30%;
+        width: 35%;
+        height: 40%;
+        left: 55%;
+        box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+        img{
+            position: absolute;
+            top:20%;
+        }
+        p{
+            position: absolute;
+            left: 25%;
+        }
+        h1{
+            position: absolute;
+            top:30%;
+            left: 25%;
+            color: #DAAF5A;
+        }
+        h5{
+            position: absolute;
+            top:34%;
+            left: 65%;
+            color: gray;
+        }
+    }
+}

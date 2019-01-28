@@ -1,0 +1,63 @@
+.About{
+    
+    position: relative;
+    background: $second-color;
+    background: url('../img/abg.png');
+    box-shadow: 0px 5px 50px 5px #34495e;
+    overflow-y: hidden;
+}
+
+.About-title{
+    position: relative;
+   
+    height: 90%;
+    width: 40%;
+    left: 5%;
+    h5{
+        font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+        color: #DAAF5A;
+        font-size: 20px;
+    }
+    h1{
+        font-family: 'Rancho', cursive;
+        font-weight: 400;
+        font-size: 30px;
+        color: #595959;
+        line-height: 1.5;
+    }
+    p{
+        position: relative;
+        font-family: "Work Sans", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #595959;
+        box-sizing: border-box;
+        display: block;
+    }
+    button{
+        position: absolute;
+        height: 50px;
+        width: 150px;
+        background: $second-color;
+        border: 2px solid #DAAF5A;
+        top: 50%;
+        border-radius: 20px;
+        color: #333;
+        font-size: bold;
+        outline: none;
+        font-size: 20px;
+        cursor: pointer;
+   &:hover{
+    background: #DAAF5A;
+       color: #fff;
+   } 
+}
+}
+
+.img{
+    position: relative;
+    left: 50%;
+    top: -90%;
+
+}

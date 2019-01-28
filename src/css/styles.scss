@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import'./variables/allvariables';
+@import'./mixins/buttons';
+@import'./mixins/headings';
+@import'./mixins/hero';
+@import'./mixins/circle';
+@import'./extends/allextends';
+@import'./components/Navbar';
+@import'./components/Hero';
+@import'./components/About';
+@import'./components/Services';
+@import'./components/Menu';
+@import'./components/Testimonials';
+@import'./components/-Gallery.scss';
+@import'./components/Blog';
+@import'./components/Blogpage';
+
+@import'./components/Contact';
+@import'./components/Footer';
+@import "./components/About-hero";
+@import "./components/AboutStory";
+@import "./components/Aboutbox";
+@import"./components/Booking";
+
+
+
+
+
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: $fonts;
+
+}
+
+.section{
+ height:100vh;
+ padding-top: 50px;
+ overflow-x: hidden;
+  
+}
+
+

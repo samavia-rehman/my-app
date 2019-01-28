@@ -1,0 +1,35 @@
+.boxx{
+    position: relative;
+    background: #F7F7F7;
+
+    .box{
+        position: relative;
+        height: 400px;
+        width: 300px;
+        // box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+        display: inline-block;
+        left: 5%;
+        margin-left: 5%;
+
+     
+        h1{
+            font-size: 20px;
+            color: #000;
+            letter-spacing: 1px;
+            // text-align: center;
+            font-family: Rancho, "Comic Sans MS", cursive, sans-serif;
+
+        }
+        p{
+            font-family: 'Arial', "Comic Sans MS", cursive, sans-serif;
+            color: rgb(119, 119, 119);
+            font-size: 20px;
+            // text-align: center;
+        }
+      
+       
+    }
+}
+
+
+    

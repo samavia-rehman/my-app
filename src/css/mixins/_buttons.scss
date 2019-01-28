@@ -1,0 +1,30 @@
+@mixin btn($size){
+    @if ($size == 'lg'){
+        font-size: 30px;
+        margin-bottom:50px;
+        padding: 10px 20px;
+        cursor: pointer;
+        color: white;
+        font-weight: bolder;
+        transition: .5s;
+        background-color:#34495e;
+        border-radius: 15px;
+        &:hover{
+            letter-spacing: 2px;
+        }
+    }
+    @if($size == "sm"){
+        font-size: 20px;
+        margin-bottom:50px;
+        padding: 5px 10px;
+        cursor: pointer;
+        color: white;
+        font-weight: bolder;
+        transition: .5s;
+        background-color:#34495e;
+        border-radius: 15px;
+        &:hover{
+            letter-spacing: 2px;
+        }
+    }
+}

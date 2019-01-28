@@ -1,0 +1,31 @@
+.about-story{
+   
+    position: relative;
+    h1{
+        position: absolute;
+        color: #000;
+        font-size: 40px;
+        font-family: 'Rancho', cursive;
+        left: 40%;
+        letter-spacing: 3px;
+        height: 20vh;
+        width: 20vw;
+        top: 10%;
+        
+    }
+    .video{
+        position: relative;
+        top: 30%;
+        // border: green 5px solid;
+        width: 60vw;
+        height: 60vh;
+        left: 45vh;
+        .elementor-video-iframe{
+            position: absolute;
+            top: 0%;
+            height: 100%;
+            width:100%;
+        }
+    }
+    
+}
